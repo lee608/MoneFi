@@ -1,0 +1,350 @@
+.comment-form {
+    display: flex;
+    flex-direction: column;
+    margin-left: -20px;
+}
+
+.comment-form-group {
+    margin-bottom: 15px;
+}
+
+.comment-label {
+    font-weight: bold;
+}
+
+.comment-error {
+    color: red;
+    margin-top: 5px;
+}
+
+.comment-submit {
+    background-color: #754ffe;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    align-self: flex-end;
+    width: 678px;
+    margin-left: auto;
+    margin-right: 0;
+    margin-top: -11px;
+}
+
+.comments-headline-button {
+    margin-left: 313px;
+    border-color: rgba(117, 79, 254, 0.5);
+    color: #754ffe;
+    margin-top: 50px;
+    font-size: 15px;
+    padding: 10px;
+    padding-right: 0.3cm;
+    background-color: #fff;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.comments-headline-button:hover {
+    background-color: #754fef;
+    color: white;
+}
+
+.comment-icon {
+    padding-right: 0.1cm;
+}
+
+.comment-time {
+    margin-left: 10px;
+    color: #aaa;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 0.8rem;
+    line-height: 1.8rem;
+}
+
+.comment-edit {
+    color: grey;
+    margin-left: 10px;
+    padding-right: 5px;
+    padding-top: 0;
+}
+
+.comment-delete {
+    color: red;
+    margin-left: 5px;
+    padding-right: 5px;
+
+}
+
+.comment-deleted {
+    margin-left: 60px;
+    margin-bottom: 10px;
+}
+
+.comment-update {
+    color: rgb(29, 212, 151);
+    margin-left: 10px;
+    margin-top: 5px;
+
+}
+
+.comment-reply {
+    color: #774ffe;
+    margin-left: 32px;
+    padding-right: 5px;
+}
+
+.reply-card-form {
+    margin-top: 10px;
+    margin-left: 2rem;
+    border-top: #754ffe;
+}
+
+.reply-post-button {
+    background-color: #754ffe;
+    color: #fff;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    align-self: flex-end;
+    margin-left: 30.3rem;
+    margin-top: 18px;
+    margin-bottom: -10px;
+}
+
+.comment-quill-container .ql-container {
+    width: 678px;
+    height: 70 px;
+}
+
+.comment-quill-container .ql-toolbar {
+    width: 678px;
+    height: 38px;
+}
+
+.reply-quill-container .ql-container {
+    width: 555px;
+    height: 100px;
+}
+
+.reply-quill-container .ql-toolbar {
+    width: 555px;
+    height: 38px;
+}
+
+.comment-quill-editor .ql-editor {
+    padding-bottom: 80px;
+}
+
+.comment-quill-container .ql-editor::before {
+    top: 40px;
+    transform: translateY(-150%);
+}
+
+
+
+.comment-thumbsup-icon {
+    color: #774ffe;
+    font-size: 18px;
+    padding-bottom: 0.7mm;
+    margin-left: 15px;
+}
+
+.comment-thumbsdown-icon {
+    color: #774ffe;
+    margin-left: 3px;
+    padding-top: 1mm;
+    font-size: 18px;
+}
+
+.comment-avatar-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.comment-reply-comments {
+    margin-left: 55px;
+}
+
+.comment-modal-sidebar {
+    display: flex !important;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin: 0;
+}
+
+.comment-modal-right .modal-dialog {
+    margin-right: 0;
+    margin-top: 0;
+    width: 710px;
+    height: 600px;
+    max-width: 100%;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.comment-modal-content .modal-content{
+    height: 100vh;
+    width: 103%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border: none;
+}
+
+.comment-modal-title {
+    font-size: 13px;
+    font-weight: bold;
+    color: #754ffe;
+    margin-bottom: -10px;
+}
+
+.comment-modal-header {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    position: relative;
+    text-align: center;
+    margin-bottom: -5px;
+}
+
+.comment-modal-header::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 25px;
+    width: 71px;
+    height: 4px;
+    background-color: #754ffe;
+    margin-bottom: -1px;
+}
+
+.comment-modal-header::before {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 25px;
+    width: 670px;
+    height: 1px;
+    background-color: #b5a4f3;
+}
+
+.comments-all-headline {
+    color: #754ffe;
+    font-size: 13px;
+    font-weight: bolder;
+    position: relative;
+    text-align: left;
+    margin-bottom: 4px;
+    margin-top: 25px;
+}
+
+.comments-all-headline::after {
+    content: "";
+    position: absolute;
+    bottom: -7px;
+    left: 1px;
+    width: 111px;
+    height: 4px;
+    background-color: #754ffe;
+}
+
+.comments-all-headline::before {
+    content: "";
+    position: absolute;
+    bottom: -7px;
+    left: 8px;
+    width: 670px;
+    height: 1px;
+    background-color: #b5a4f3;
+}
+
+.comment-container {
+    margin-left: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dcccff;
+}
+
+.comment-icons {
+    color: #754ffe;
+    font-size: 11px;
+    margin-left: -3px;
+}
+
+.reply-card-body {
+    border-color: none;
+}
+
+.comment-edit-reply {
+    color: grey;
+    margin-left: 400px;
+    padding-right: 5px;
+    padding-top: 0;
+}
+
+.vertical {
+    border-left: 1px solid #dcccff;
+    padding-left: 30px;
+    margin-left: -10px;
+}
+
+.content-fit {
+    max-width: 100%;
+    overflow-x: auto;
+}
+
+.nested-comment-edit {
+    margin-left: 15px;
+    color: grey;
+    padding-right: 5px;
+    padding-top: 0;
+}
+
+.comment-quill-container-edit .ql-container {
+    margin-left: 30px;
+    width: 600px;
+    height: 100px;
+}
+
+.comment-quill-container-edit .ql-toolbar {
+    margin-left: 30px;
+    width: 600px;
+    height: 38px;
+}
+
+.show-edited-comment {
+    margin-left: 4px;
+    color: #754ffe;
+    font-weight: bold;
+}
+
+.comment-sort {
+    margin-left: 535px;
+    margin-top: -21px;
+    color: #754ffe;
+    font-weight: 600;
+}
+
+.comment-filter-selection {
+    color: #754ffe;
+}
+
+.nested-reply {
+    color: #774ffe;
+    margin-left: 50px;
+    padding-right: 5px;
+}
+
+.nested-reply-quill-container .ql-container {
+    width: 535px;
+    height: 80px;
+    margin-left: 40px;
+}
+
+.nested-reply-quill-container .ql-toolbar {
+    width: 535px;
+    height: 38px;
+    margin-left: 40px;
+}
